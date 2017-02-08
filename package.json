@@ -1,17 +1,19 @@
 {
-  "name": "jasmine-before-all",
-  "version": "0.1.0",
-  "description": "Adds a done-friendly beforeAll setup to jasmine",
-  "homepage": "https://github.com/testdouble/jasmine-before-all",
-  "author": {
+  "name": "@ndelangen/jasmine-before-all",
+  ""
+  "version": "1.0.0",
+  "description": "Adds a done-friendly beforeAll & afterAll setup to jasmine 1.x",
+  "homepage": "https://github.com/ndelangen/jasmine-before-all",
+  "author": [{
     "name": "Justin Searls",
     "company": "Test Double, LLC"
-  },
+  }, {
+    "name": "Norbert de Langen",
+    "company": "Xebia"
+  }],
   "main": "main.js",
-  "dependencies": {
-    "coffee-script": "~ 1.6.3"
-  },
   "devDependencies": {
+    "coffee-script": "~ 1.6.3",
     "lineman": ">=0.21.0",
     "grunt": "~0.4.2",
     "grunt-write-bower-json": "0.0.1"
@@ -21,11 +23,11 @@
     "bdd"
   ],
   "bugs": {
-    "url": "https://github.com/testdouble/jasmine-before-all/issues"
+    "url": "https://github.com/ndelangen/jasmine-before-all/issues"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/testdouble/jasmine-before-all.git"
+    "url": "https://github.com/ndelangen/jasmine-before-all.git"
   },
   "licenses": [
     {
